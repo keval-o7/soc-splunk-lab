@@ -1,0 +1,31 @@
+## 📸 Project Walkthrough
+
+### Splunk Setup
+![Splunk Running](screenshots/01_splunk_running.png)
+
+### Forwarder Connection
+![Forwarder](screenshots/02_forwarder_connected.png)
+
+### Raw Logs
+![Raw Logs](screenshots/03_raw_logs.png)
+
+### Failed Login Detection
+![Failed Logins](screenshots/04_failed_logins.png)
+
+### Detection Query
+![Detection Query](screenshots/05_detection_query.png)
+
+### Suspicious Activity
+![Suspicious Activity](screenshots/06_suspicious_activity.png)
+
+### Alert Configuration
+![Alert Config](screenshots/07_alert_config.png)
+
+### Triggered Alert
+![Triggered Alert](screenshots/08_triggered_alert.png)
+
+### Top Source IP Address
+![Top Source IP Address](screenshots/09_src_ip.png)
+
+### SOC Dashboard
+![Dashboard](screenshots/09_dashboard.png)
