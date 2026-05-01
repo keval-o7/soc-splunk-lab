@@ -56,17 +56,17 @@ index=* EventCode=4625
 This query identifies accounts with multiple failed login attempts.
 A high number of failures within a short time window is a strong indicator of a brute-force attack.
 
-🚨 Alerting Strategy
+## 🚨 Alerting Strategy
 
-🔹Alert Name: Brute Force Detection Alert
-🔹Trigger Condition: Number of results > 0
-🔹Schedule: Runs every 5 minutes
-🔹Purpose: Detect and notify suspicious authentication behaviour in near real-time
+-**🔹Alert Name:** Brute Force Detection Alert
+-**🔹Trigger Condition:** Number of results > 0
+-**🔹Schedule:** Runs every 5 minutes
+-**🔹Purpose:** Detect and notify suspicious authentication behaviour in near real-time
 
-📊 Dashboard Overview
+## 📊 Dashboard Overview
 
 The dashboard provides a high-level view of security events.
-Key Panels:
+-**Key Panels:**
 📈 Failed Login Trends Over Time
 👤 Most Targeted User Accounts
 🌐 Top Source IP Addresses
@@ -137,48 +137,48 @@ Successful triggering of alerts and detection of suspect's IP Address, simulatin
 ---
 
 ### 🔹 10. SOC Dashboard
-![Dashboard](screenshots/09_dashboard.png)
+![Dashboard](screenshots/10_splunk_dashboard.png)
 
 Custom dashboard visualising failed login trends, targeted accounts, and attack sources for effective security monitoring.
 
 ---
 
-🧠 Key Learnings
+## 🧠 Key Learnings
 
-🔹SIEM deployment and log ingestion using Splunk
-🔹Writing detection queries using SPL
-🔹Identifying brute-force attack patterns
-🔹Creating alerts for security monitoring
-🔹Visualising security data through dashboards
+-🔹SIEM deployment and log ingestion using Splunk
+-🔹Writing detection queries using SPL
+-🔹Identifying brute-force attack patterns
+-🔹Creating alerts for security monitoring
+-🔹Visualising security data through dashboards
 
-🔐 Security Concepts Applied
+## 🔐 Security Concepts Applied
 
-🔹Threat Detection
-🔹Log Analysis
-🔹Incident Monitoring
-🔹Authentication Security
-🔹Basic SOC Operations
+-🔹Threat Detection
+-🔹Log Analysis
+-🔹Incident Monitoring
+-🔹Authentication Security
+-🔹Basic SOC Operations
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-🔹Map detections to MITRE ATT&CK framework
-🔹Add detection for:
-    🔹Successful login after multiple failures
-    🔹Suspicious PowerShell activity
-🔹Integrate automated response workflows
-🔹Expand to multi-source log ingestion
+-🔹Map detections to MITRE ATT&CK framework
+-🔹Add detection for:
+ -   🔹Successful login after multiple failures
+  -  🔹Suspicious PowerShell activity
+-🔹Integrate automated response workflows
+-🔹Expand to multi-source log ingestion
 
-📎 Project Value
+## 📎 Project Value
 
 This project demonstrates practical, hands-on experience in:
-🔹SIEM tools used in industry
-🔹Detection engineering fundamentals
-🔹Security monitoring workflows
+-🔹SIEM tools used in industry
+-🔹Detection engineering fundamentals
+-🔹Security monitoring workflows
 
-🔗 Author
+## 🔗 Author
 
-Keval S.
-Cybersecurity Graduate | SOC Analyst Aspirant
+**Keval Shah**
+**Cybersecurity Graduate | SOC Analyst Aspirant**
 
 GitHub: https://github.com/keval-o7/
 LinkedIn: https://linkedin.com/in/keval-shah-profile
