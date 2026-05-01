@@ -191,8 +191,8 @@ This project demonstrates practical, hands-on experience in:
 
 ## 🔗 Author
 
-**Keval Shah**
+**Keval Shah** | 
 **Cybersecurity Graduate | SOC Analyst Aspirant**
 
-GitHub: https://github.com/keval-o7/
-LinkedIn: https://linkedin.com/in/keval-shah-profile
+**GitHub:** https://github.com/keval-o7/ | 
+**LinkedIn:** https://linkedin.com/in/keval-shah-profile
