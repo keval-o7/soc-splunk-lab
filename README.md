@@ -49,7 +49,7 @@ An attacker attempts to gain unauthorised access by repeatedly trying incorrect 
 ``spl
 index=* EventCode=4625 
 | stats count by TargetUserName
-| where count > 5
+| where count > 5``
 
 💡 Explanation
 
