@@ -56,6 +56,8 @@ index=* EventCode=4625
 This query identifies accounts with multiple failed login attempts.
 A high number of failures within a short time window is a strong indicator of a brute-force attack.
 
+---
+
 ## 🚨 Alerting Strategy
 
 - **Alert Name:** Brute Force Detection Alert
@@ -72,6 +74,8 @@ The dashboard provides a high-level view of security events.
 - 📈 Failed Login Trends Over Time
 - 👤 Most Targeted User Accounts
 - 🌐 Top Source IP Addresses
+
+---
 
 ## 📸 Screenshots & Project Walkthrough
 
@@ -147,35 +151,43 @@ Custom dashboard visualising failed login trends, targeted accounts, and attack 
 
 ## 🧠 Key Learnings
 
--SIEM deployment and log ingestion using Splunk
--Writing detection queries using SPL
--Identifying brute-force attack patterns
--Creating alerts for security monitoring
--Visualising security data through dashboards
+- SIEM deployment and log ingestion using Splunk
+- Writing detection queries using SPL
+- Identifying brute-force attack patterns
+- Creating alerts for security monitoring
+- Visualising security data through dashboards
+
+---
 
 ## 🔐 Security Concepts Applied
 
--Threat Detection
--Log Analysis
--Incident Monitoring
--Authentication Security
--Basic SOC Operations
+- Threat Detection
+- Log Analysis
+- Incident Monitoring
+- Authentication Security
+- Basic SOC Operations
+
+---
 
 ## 🚀 Future Improvements
 
--Map detections to MITRE ATT&CK framework
--Add detection for:
-    -Successful login after multiple failures
-    -Suspicious PowerShell activity
--Integrate automated response workflows
--Expand to multi-source log ingestion
+- Map detections to MITRE ATT&CK framework
+- Add detection for:
+    - Successful login after multiple failures
+    - Suspicious PowerShell activity
+- Integrate automated response workflows
+- Expand to multi-source log ingestion
+
+---
 
 ## 📎 Project Value
 
 This project demonstrates practical, hands-on experience in:
--SIEM tools used in industry
--Detection engineering fundamentals
--Security monitoring workflows
+- SIEM tools used in industry
+- Detection engineering fundamentals
+- Security monitoring workflows
+
+---
 
 ## 🔗 Author
 
