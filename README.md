@@ -48,7 +48,7 @@ An attacker attempts to gain unauthorised access by repeatedly trying incorrect 
 
 ``spl
 index=* EventCode=4625 
-| stats count by TargetUserName
+| stats count by Account_Name
 | where count > 5``
 
 💡 Explanation
