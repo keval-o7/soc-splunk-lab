@@ -58,10 +58,10 @@ A high number of failures within a short time window is a strong indicator of a 
 
 🚨 Alerting Strategy
 
-Alert Name: Brute Force Detection Alert
-Trigger Condition: Number of results > 0
-Schedule: Runs every 5 minutes
-Purpose: Detect and notify suspicious authentication behaviour in near real-time
+🔹Alert Name: Brute Force Detection Alert
+🔹Trigger Condition: Number of results > 0
+🔹Schedule: Runs every 5 minutes
+🔹Purpose: Detect and notify suspicious authentication behaviour in near real-time
 
 📊 Dashboard Overview
 
